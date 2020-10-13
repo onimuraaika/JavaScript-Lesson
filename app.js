@@ -1,8 +1,12 @@
-var i; //初期値の変数をiとする
-var num = 0;
-
-for(i = 1; i < 11; i++){ //初期値は1、初期値が10になるまで繰り返す、増減値は初期値+1
-  num = num + i;
+function addString(stringA){
+  var greeting = "こんにちは" + stringA;
+  return greeting;
 }
 
-alert('1から10まで足し算した結果は' + num + 'です。');
+//alertStringという変数に関数addStringを格納
+//ここで引数に渡したい引数を入れる
+var alertString;
+alertString = addString("しろくまさん。");
+
+// 作成した変数をアラートに表示させる
+alert(alertString);
