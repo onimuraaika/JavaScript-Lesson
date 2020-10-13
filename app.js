@@ -1,2 +1,1 @@
-var question = '朝です、カーテンは開けましたか？';
-alert(question);
+alert(1 + 1);
