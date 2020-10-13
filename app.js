@@ -1,3 +1,10 @@
-var greeting1 = "おはよう";
-var greeting2 = "ございます";
-alert(greeting1 + greeting2);
+var banana = 100;
+var apple = 200;
+
+if(banana < apple){
+  alert("バナナはりんごより安いです。");
+} else if(banana == apple){
+  alert("バナナとりんごは同じ値段です。");
+} else if(banana > apple){
+  alert("バナナはりんごより高いです。");
+}
