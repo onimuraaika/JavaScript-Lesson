@@ -1,10 +1,8 @@
-var max = 10;
-var count = 0;
-var number = 1;
+var i; //初期値の変数をiとする
+var num = 0;
 
-while(number < max){    //（）の中身がtrueの間は{}内の処理が繰り返される
-  number = number + 2;
-  count = count + 1;
+for(i = 1; i < 11; i++){ //初期値は1、初期値が10になるまで繰り返す、増減値は初期値+1
+  num = num + i;
 }
 
-alert('2を足し続けて' + max + 'を超えるのに必要だった回数は' + count + '回です。');
+alert('1から10まで足し算した結果は' + num + 'です。');
